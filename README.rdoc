@@ -29,3 +29,18 @@ Please feel free to use a different markup language if you do not plan to run
 
 I used current rails version and Ruby 2.0.0 for application
 Also I used Base 36 to create short path
+
+following are the steps to setup application:
+step1:  Use any OS just make sure ruby2.0.0 should install and also create rvm setup but not needed.
+I used ubuntu12.04 for this aplication
+install ruby with rvm in ubuntu https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm
+check ruby version using ruby -v   if its shows version means ruby instalation is propper.
+
+step2: make sure git setup is there and clone repository using git clone https://github.com/santosh8887/path-shortner.git 
+and cd path-shortner
+step3: just run 'bundle install' command it will do all setup
+step4: make sure mysql db setup and run 'rake db migrate'
+step5: run 'rails s' command it will start server
+step6: type this url in browser http://localhost:3000
+It will show dashbord page which has one textbox and button and test with any url submit it will create shorted url 
+after creating some url refresh page it will show list of shorted url
